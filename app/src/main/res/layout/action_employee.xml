@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:hint="nhập họ và tên lót"
+        android:id="@+id/edtDLLastName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:hint="nhập tên"
+        android:id="@+id/edtDLFirstName"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Bộ phận: "
+            android:layout_marginRight="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nhập bộ phận"
+            android:textSize="14dp"
+            android:id="@+id/edtDepartmentID"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="Cập nhật"
+            android:id="@+id/btnUpdateEmployee"
+            android:textColor="@color/colorWhite"
+            android:background="#6f39d6"
+            android:layout_marginRight="15dp"/>
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="32dp"
+            android:text="Xóa"
+            android:id="@+id/btnDelEmployee"
+            android:textColor="@color/colorWhite"
+            android:background="#6f39d6"/>
+    </LinearLayout>
+</LinearLayout>

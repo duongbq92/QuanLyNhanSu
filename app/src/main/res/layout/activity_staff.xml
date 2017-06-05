@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.quanlynhansu.StaffActivity">
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView_employee"
+        android:columnWidth="150dp"
+        android:numColumns="auto_fit"
+        android:textAlignment="center"
+        android:background="#977ffa"
+        android:verticalSpacing="30dp"
+        android:stretchMode="spacingWidth"/>
+</LinearLayout>
